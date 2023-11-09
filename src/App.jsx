@@ -9,11 +9,14 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <a target="_blank">
+          <img
+            src={
+              "https://carbonminus-public-images.s3.ap-south-1.amazonaws.com/logos/White+with+tagline.png"
+            }
+            className="logo"
+            alt="Vite logo"
+          />
         </a>
       </div>
       <h1>Carbon Minus Implementation with help of GitPages</h1>
